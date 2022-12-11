@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-11-29T18:44:32+08:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///Users/chenjiancheng/Desktop/MAIKA/高虹安-127815.mp4"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./高虹安-127815.mp4"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:5c8927a7-e0cc-4a4c-9380-a7004f63d9e8</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">2</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="2960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="3190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="3450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="3470"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
+    <TIER LINGUISTIC_TYPE_REF="Labeling_head" TIER_ID="head">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE/>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Labeling_hand" TIER_ID="hand"/>
+    <TIER LINGUISTIC_TYPE_REF="Labeling_face" TIER_ID="face">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts3">
+                <ANNOTATION_VALUE/>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Labeling_speech_constant" TIER_ID="speech_constant"/>
+    <TIER LINGUISTIC_TYPE_REF="Labeling_gesture_function" TIER_ID="gesture_function"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Face"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Labeling_face" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Head"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Labeling_head" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Hand"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Labeling_hand" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Speech Constant"
+        GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Labeling_speech_constant" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Gesture_function"
+        GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Labeling_gesture_function" TIME_ALIGNABLE="true"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001"
+        LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="Gesture_function">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_300f3ba2-5e50-4808-a3ad-aef11235714d">
+            <CVE_VALUE LANG_REF="und">Social</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_819769b3-5a76-4e67-8726-7b30893f8ef9">
+            <CVE_VALUE LANG_REF="und">Repres</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_f47fd824-c0ca-4019-981b-1ab47a0d9796">
+            <CVE_VALUE LANG_REF="und">Index</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_bacf0d79-5c46-429d-a515-1b8110b6c22a">
+            <CVE_VALUE LANG_REF="und">Parsing</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_8a76d85f-fdb8-495e-9e54-f79b4b2a1f7c">
+            <CVE_VALUE LANG_REF="und">Perform</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_4ec4d316-ce25-411e-8425-53739e3873e7">
+            <CVE_VALUE LANG_REF="und">Modal</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Head">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_d30b4c06-b9db-4625-8eb4-bf6023936558">
+            <CVE_VALUE LANG_REF="und">Single Nod (Down)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_f75dd154-6637-416d-ba0d-922068723688">
+            <CVE_VALUE LANG_REF="und">Repeated Nods (Down)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_90d75936-eaa3-4b9b-befc-a2f317199221">
+            <CVE_VALUE LANG_REF="und">Single Jerk (Backwards Up)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_57c44d8d-0c01-4992-a7ef-4ebfe97af719">
+            <CVE_VALUE LANG_REF="und">Repeated Jerks (Backwards Up)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_08979f07-9d6e-4b6b-9f65-ed536e191dea">
+            <CVE_VALUE LANG_REF="und">Single Slow Backwards Up</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_44014cd0-a11b-4e1e-819b-c46e5c9ffef9">
+            <CVE_VALUE LANG_REF="und">Move Forward</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_067f5fab-b89d-4f49-bc3b-785f2c607c90">
+            <CVE_VALUE LANG_REF="und">Move Backward</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_22d307c9-65dc-4627-afbb-3270d358cb84">
+            <CVE_VALUE LANG_REF="und">Single Tilt (Sideways)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_88525b39-ca50-4654-894e-cc8aef0246b4">
+            <CVE_VALUE LANG_REF="und">Repeated Tilts (Sideways)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_c78d681a-8e2d-467b-b333-dab2d40eaa4a">
+            <CVE_VALUE LANG_REF="und">Side-turn</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_48621360-7bc7-4be2-9ece-bbb37b78e947">
+            <CVE_VALUE LANG_REF="und">Shake (repeated)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_a291663f-0bef-4043-af45-f47e537c6133">
+            <CVE_VALUE LANG_REF="und">Waggle</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_3b8e1bce-370d-46e2-a555-9deaa2c60aa8">
+            <CVE_VALUE LANG_REF="und">Other</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Speech Constant">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_32abc8b8-ee3f-4f22-aab9-255cd5c9c605">
+            <CVE_VALUE LANG_REF="und">pause</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_7e35a55b-342d-4b93-a71b-cf00fe7ba2d6">
+            <CVE_VALUE LANG_REF="und">repetition</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_d0adb024-4f7e-4b6a-af63-e9ddac365714">
+            <CVE_VALUE LANG_REF="und">non-lexical item</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Face">
+        <DESCRIPTION LANG_REF="und">head and mouth</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_f716b009-307a-445a-ad16-419a9f5d7a70">
+            <CVE_VALUE LANG_REF="und">Frowning eyebrows</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_24b27c63-e43f-46ea-902e-75b99fdb1a2c">
+            <CVE_VALUE LANG_REF="und">Raising eyebrows</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_3a80bf9a-f693-4bc4-b465-7f2f13e19cea">
+            <CVE_VALUE LANG_REF="und">Smile</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_338c74d1-6b21-49a1-90cf-ddc704a32712">
+            <CVE_VALUE LANG_REF="und">Other</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Hand">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_7f85bc40-c1b3-423e-9b39-b80e5d28419f">
+            <CVE_VALUE LANG_REF="und">FingTouch</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_b59b88ed-a1f1-4647-9c34-0d4f889985af">
+            <CVE_VALUE LANG_REF="und">FingBunch</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_841c81d0-bd5a-413d-b224-4a947ef637d8">
+            <CVE_VALUE LANG_REF="und">FingerPoint</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_64e7519b-fc41-4981-a43e-61ac32a8f1fb">
+            <CVE_VALUE LANG_REF="und">PalmsOpApUD</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_cc742745-936e-430e-8cdd-a1be291bf57c">
+            <CVE_VALUE LANG_REF="und">PalmOpUD</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_c7e4166f-b176-48f0-8bb2-50fec482d350">
+            <CVE_VALUE LANG_REF="und">HandVertUD</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_247b29ca-43dd-4f64-b8f6-957ae8830114">
+            <CVE_VALUE LANG_REF="und">HandsSwSD</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_f521cb04-b690-4880-8284-57f2761c135a">
+            <CVE_VALUE LANG_REF="und">HandsPray</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_a84044e4-4313-449f-bce0-d2c804bb5e80">
+            <CVE_VALUE LANG_REF="und">HandsRotCtr</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_1f369977-8a94-470b-a9bf-a3d1189fed47">
+            <CVE_VALUE LANG_REF="und">HandsWApD</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_aaadc42b-50a8-4c93-96f5-ef46c4e33b2f">
+            <CVE_VALUE LANG_REF="und">HandsClasp</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_dc6fbedd-4c21-41a0-8d57-d8b82bfdf983">
+            <CVE_VALUE LANG_REF="und">Other</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+</ANNOTATION_DOCUMENT>

@@ -1,0 +1,5 @@
+﻿name,offset,span,text,cosp,blankIntervals,video_type,channel,duration,datetime,legislator,meeting_header,meeting_date,meeting_name,meeting_committee,annotation,start,end,isActive,query_text,search_type
+clgvd-210315123842,90920,3480,他的工電系統給打斷了,SP1_RIGHT_PALM_IN||SP2_LEFT_PALM_MEDIAL||SP2_LOS_LEFT,120||450,legvid,立法院議事轉播,427000,Mon Mar 15 2021,吳怡玎,第10屆 第3會期　主辦單位：教育及文化委員會,2021-03-15T01:00:00.000Z,立法院第10屆第3會期教育及文化委員會第3次全體委員會議（事由：邀請行政院原子能委員會主任委員謝曉星列席報告業務概況，並備質詢。）,教育及文化,na,90.92,94.4,na,打斷,asr
+clgvd-210315123842,57089.99999999999,550.0000000000043,na,na,na,na,na,na,na,na,na,na,na,na,na,57.08999999999999,57.63999999999999,na,打斷,asr
+clgvd-210315123842,58169.99999999999,60.000000000002274,na,na,na,na,na,na,na,na,na,na,na,na,na,58.169999999999995,58.23,na,打斷,asr
+clgvd-210315123842,58880,39.99999999999204,na,na,na,na,na,na,na,na,na,na,na,na,na,58.88,58.919999999999995,true,打斷,asr
